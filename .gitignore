@@ -1,0 +1,5 @@
+.idea/
+*.dsc
+*.tar.gz
+*.deb
+*.changes
