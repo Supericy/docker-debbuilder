@@ -15,7 +15,7 @@ deb_build() {
 }
 
 deb_export() {
-    cp ../*.deb $OUTPUT_DIR
+    cp $BUILD_DIR/../*.deb $OUTPUT_DIR
 }
 
 if is_directory_and_not_empty $SOURCE_DIR; then
@@ -33,4 +33,3 @@ cd $BUILD_DIR
 clean
 deb_build
 deb_export
-clean
